@@ -5,18 +5,30 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Component Library</title>
+        <!-- Css way 1 inside the header -->
+        <!-- <style> 
+            body {
+                background: red;
+            }
+        </style> -->
+
+        <!-- Third way of doing CSS - linking the style sheet -->
+        <link href="style.css" rel="stylesheet">
     </head>
     <body>
-        <h1>Varuni's component library</h1>
-        <p>A library to bring all of my most used components together. It will also help my projects look good and consistent.</p>
+        <!-- Second type of css usage inline with tags as attributes -->
+        <div style="background:black; height: 20%">Type two of using css</div>
+        <h1 id ="lib-heading">Varuni's component library</h1>
+        <p class="para">A library to bring all of my most used components together. It will also help my projects look good and consistent.</p>
         <hr>
+        
         <h1> This s the h1 tag</h1>
         <h2>This is h2 tag the second biggest, it goes on till h6</h2>
         <p>This is normal test</p>
         <small>This is relatively smaller text</small>
         <hr>
         <h2>@Container</h2>
-        <div>This is a fluid container and it will go till the end of page </div>
+        <div class="para">This is a fluid container and it will go till the end of page </div>
         <div>This is a centered container and it will go till the specified width</div>
         <hr>
         <h2>@Links</h2>

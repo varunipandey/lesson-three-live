@@ -1,0 +1,15 @@
+body{
+    color:red;
+}
+h1 {
+    color:blue;
+}
+
+/* here h1, body, #lib (id), .para (class) are all selectors */
+
+#lib-heading {
+    color:blueviolet;
+}
+.para {
+    color:green;
+}
