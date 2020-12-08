@@ -20,3 +20,14 @@ h1 {
 body {
     font-family: 'Lato', sans-serif;
 }
+
+.container {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.container-center {
+    max-width: 600px;
+    margin: auto;
+}
+
