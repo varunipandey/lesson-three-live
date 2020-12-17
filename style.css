@@ -2,6 +2,7 @@
 :root {
     --primary-color: #831843;
     --light-gray: #F3F4F6;
+    --dark-gray:#6B7280;
 }
 
 body {
@@ -27,6 +28,7 @@ hr {
 .link {
     text-decoration: none;
     padding: 0.5rem 1rem;
+    margin: 1rem 0.25rem 1rem 0rem;
 }
 
 .link-primary {
@@ -73,6 +75,9 @@ hr {
 .navigation .link {
     color: white;
 }
+.navigation .link-active {
+    font-weight: bold;
+}
 
 .hero {
     padding: 2rem;
@@ -96,10 +101,15 @@ hr {
 
 .section {
     padding: 2rem;
+    text-align: center;
 }
 
-.section h1 {
+
+/* .section h1 {
     text-align: center;
+} */
+.section p {
+    text-align: left;
 }
 
 .not-white {
@@ -120,4 +130,14 @@ hr {
 
 .footer ul {
     padding-inline-start: 0px;
+}
+.footer .footer-header {
+    font-weight: bold;
+}
+.quote {
+    color: var(--dark-gray);
+}
+.section .quote-author {
+    color: var(--dark-gray);
+    text-align: right;
 }
