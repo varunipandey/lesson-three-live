@@ -5,7 +5,7 @@ h1 {
     color:blue;
  */
 
- /* here h1, body, #lib (id), .para (class) are all selectors  */
+/* here h1, body, #lib (id), .para (class) are all selectors  */
 
 /* #lib-heading { 
     color:blueviolet;
@@ -14,11 +14,10 @@ h1 {
     color:green;
 } */
 
-
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
-
 :root {
-    --primary-color:#831843;
+    --primary-color: #831843;
+    --light-gray:#F3F4F6;
 }
 
 body {
@@ -40,7 +39,7 @@ hr {
     margin: auto;
 }
 
-.link{
+.link {
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
@@ -48,7 +47,7 @@ hr {
 .link-primary {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
-    color:white;
+    color: white;
 }
 
 .link-secondary {
@@ -63,7 +62,6 @@ hr {
 
 .list-no-bullet {
     list-style: none;
-    
 }
 
 .list-item-inline {
@@ -76,35 +74,46 @@ hr {
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
-
 }
+
 .navigation .nav-brand {
     font-weight: bold;
     font-size: 1.2rem;
 }
+
 .navigation .nav-pills {
     text-align: right;
 }
+
 .navigation .link {
-    color:white;        
+    color: white;
 }
 
 .hero {
-    padding:2rem;
+    padding: 2rem;
     text-align: center;
 }
 
 .hero .hero-img {
     max-width: 350px;
-    display:block;
-    margin:auto;  
+    display: block;
+    margin: auto;
 }
 
 .hero .hero-heading {
     padding-top: 1rem;
-    color:gray;
+    color: gray;
 }
+
 .hero .hero-heading .hero-highlighted {
     color: var(--primary-color);
 }
-
+.section {
+    padding: 2rem;
+}
+.section h1 {
+    text-align: center;
+}
+.not-white {
+    background-color: var(--light-gray);
+}
