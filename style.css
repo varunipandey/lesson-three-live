@@ -3,6 +3,7 @@
     --primary-color: #831843;
     --light-gray: #DED0F2;
     --dark-gray:#6B7280;
+    --verydark-gray:#1F2937;
 }
 
 body {
@@ -149,4 +150,21 @@ hr {
 .section .quote-author {
     color: var(--dark-gray);
     text-align: right;
+}
+
+.blog-para {
+    color:var(--dark-gray);
+}
+
+.blog-post-heading {
+    color:var(--verydark-gray);
+    padding-bottom: 1.75rem;
+}
+
+h3 {
+    margin-bottom: 0px;
+    padding-top: 1rem;
+}
+.blog-para-heading{
+    color:var(--verydark-gray);
 }
