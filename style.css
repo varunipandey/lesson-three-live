@@ -1,9 +1,7 @@
-
-
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 :root {
     --primary-color: #831843;
-    --light-gray:#F3F4F6;
+    --light-gray: #F3F4F6;
 }
 
 body {
@@ -95,12 +93,15 @@ hr {
 .hero .hero-heading .hero-highlighted {
     color: var(--primary-color);
 }
+
 .section {
     padding: 2rem;
 }
+
 .section h1 {
     text-align: center;
 }
+
 .not-white {
     background-color: var(--light-gray);
 }
@@ -109,11 +110,12 @@ hr {
     background-color: var(--primary-color);
     padding: 2rem 1rem;
     text-align: center;
-    color:white;
+    color: white;
     border-top-right-radius: 1rem;
 }
-.footer .link{
-    color:white;
+
+.footer .link {
+    color: white;
 }
 
 .footer ul {

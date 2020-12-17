@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Component Library</title>
+    <!-- Css way 1 inside the header -->
+    <!-- <style> 
+        body {
+            background: red;
+        }
+    </style> -->
+
+    <!-- Third way of doing CSS - linking the style sheet -->
+    <link href="../style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Second type of css usage inline with tags as attributes -->
+    <div style="background:black; height: 20%">Type two of using css</div>
+    <h1 id ="lib-heading">Varuni's component library</h1>
+    <p >A library to bring all of my most used components together. It will also help my projects look good and consistent.</p>
+    <hr>
+    <h1>@Typography</h1>
+    <h1> This s the h1 tag</h1>
+    <h2>This is h2 tag the second biggest, it goes on till h6</h2>
+    <p>This is normal test</p>
+    <small>This is relatively smaller text</small>
+    <p>This is a <strong>bold</strong> text.</p>
+    <hr>
+    <h2>@Container</h2>
+    <div class ="container">This is a fluid container and it will go till the end of page </div>
+    <div class ="container container-center">This is a centered container and it will go till the specified width</div>
+    <hr>
+    <h2>@Links</h2>
+    <a class = "link link-primary"href="https://www.google.com">Primary Link</a>
+    <a class = "link link-secondary"href="/">Secondary Link</a>
+    <hr>
+    <h2>@Lists</h2>
+    <h3> Unordered Lists</h3>
+    <p> Css property changed to remove bullets</p>
+    <ul class="list-no-bullet">
+    <li>Item one</li>
+    <li>Item Two</li>
+    <li>Item Three</li>
+    </ul>
+
+    <h3> Unordered inline Lists</h3>
+    <ul>
+    <li class="list-item-inline">Inline Item one</li>
+    <li class="list-item-inline">Inline Item Two</li>
+    <li class="list-item-inline">Inline Item Three</li>
+    </ul>
+
+    <h3> Reverse Ordered Lists</h3>
+    <ol reversed>
+    <li>Item one</li>
+    <li>Item Two</li>
+    <li>Item Three</li>
+    </ol>
+    <hr>
+    <h2>@Nav</h2>
+
+    <nav class="navigation container">
+        <div class="nav-brand">IAmBrand</div>
+        <ul class="list-no-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link" href="/">Home</a>
+            </li>
+            <li class="list-item-inline">
+                <a  class="link" href="/">Products</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">About</a>
+            </li>
+        </ul>
+    </nav>
+    <hr>
+    <h1>@Header</h1>
+    <header class="hero">
+        <img class= "hero-img" src="/images/web-dev.svg">
+        <h1 class="hero-heading">Heading under <span class="hero-highlighted"> Header </span> </h1>
+    </header>
+    <hr>
+
+    <section class="section">
+        <h2>@Section</h2>
+        <div class="container container-center">
+            <h1>White Section </h1>
+            <p>This will have white background</p>
+        </div>
+        
+    </section>
+    <section class="section not-white">
+        <div class="container container-center">
+                <h1>Gray Section </h1>
+                <p>This will have gray background</p>
+        </div>
+        
+    </section>
+    <hr>
+    <aside>
+        Text inside aside
+        <ul>
+            <li>Item One</li>
+            <li>Item Two</li>
+            <li>Item Three</li>
+    </aside>
+
+    <footer class="footer">
+        <div>
+            Some text inside footer
+        </div>
+        <ul class="list-no-bullet">
+            <li class="list-item-inline"><a class="link" href="/"> Social One</a></li>
+            <li class="list-item-inline"><a class="link" href="/"> Social Two</a></li>
+            <li class="list-item-inline"><a class="link" href="/"> Social Three</a></li>
+            
+        </ul>
+    </footer>
+
+</body>
+</html>
